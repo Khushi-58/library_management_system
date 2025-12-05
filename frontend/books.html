@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Management System - Books</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Available Books</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="borrow.html">Borrow</a>
+            <a href="return.html">Return</a>
+        </nav>
+    </header>
+    <main>
+        <input type="text" id="search" placeholder="Search books by title or author">
+        <table id="books-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Harry Potter</td>
+                    <td>J.K. Rowling</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>Lord of the Rings</td>
+                    <td>J.R.R. Tolkien</td>
+                    <td>Borrowed</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
